@@ -11,4 +11,4 @@ icon - значок, где 10d код иконки http://openweathermap.org/im
   
   
 Документация к API: https://openweathermap.org/current  
-# homework-22
+# MADE WITH GULP
