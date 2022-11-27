@@ -1,0 +1,26 @@
+{
+  "name": "homework-18-main",
+  "version": "1.0.0",
+  "description": "С помощью ajax-запроса вывести погоду http://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "gulp js:build",
+    "build:scss": "gulp scss:build",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  }
+}

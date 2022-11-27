@@ -1,0 +1,27 @@
+$value: 100px;
+* {
+  padding: 0;
+  margin: 0;
+  p {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+  }
+
+  button {
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    color: blue;
+    &:hover {
+      width: $value * 3;
+      height: $value * 2;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
